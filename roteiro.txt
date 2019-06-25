@@ -1,0 +1,14 @@
+roteiro para criação de backend:
+1 - yarn init -y
+2 - yarn add express
+3 - importar o express e criar uma var com a função express()
+4 - instanciar uma porta com o server.listen(3000) por exemplo
+5 - instalar nodemon{
+	e configurar o arquivo package.json criando um objeto chamado
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+};
+6 - iniciar o nodemon atráves do yarn dev
+7 - fazer com que o express entenda json com o server.use(express.json());
+8 - criar as rotas
